@@ -1,0 +1,70 @@
+---
+// @ts-ignore
+import { Icon } from "astro-icon";
+
+const features = [
+  {
+    title: "Vagas de Emprego",
+    description:
+      "Procuramos sempre divulgar sites, empresas e oportunidades dos desenvolvedores conseguirem sua primeira vaga.",
+    icon: "bx:bxs-briefcase",
+  },
+  {
+    title: "Vídeo Aulas",
+    description:
+      "Uma vez na semana temos uma vídeo aula ao vivo afim de ensinar temas importantes e retirar dúvidas.",
+    icon: "bx:bxs-window-alt",
+  },
+  {
+    title: "Desafios de Programação",
+    description:
+      "Compartilhamos diversos sites com desafios de programação (mão no código) e lógica de programação. ",
+    icon: "bx:bxs-data",
+  },
+  {
+    title: "Livros Gratuitos",
+    description:
+      "Compartilhamos um acervo com mais de 100 livros gratuitos para a área de programação, do Backend ao Frontend",
+    icon: "bx:bxs-bot",
+  },
+  {
+    title: "Retirada de Dúvidas",
+    description:
+      "A comunidade é bem ativo, por isso, sempre haverá alguém para tirar as suas dúvidas.",
+    icon: "bx:bxs-file-find",
+  },
+  {
+    title: "Prática de Inglês",
+    description:
+      "O inglês é muito importante na programação, é quase indispensável. Por isso compartilhamos cursos gratuitos de inglês para a comunidade.",
+    icon: "bx:bxs-user",
+  },
+];
+---
+
+<div class="mt-16 md:mt-0">
+  <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
+    Tudo que você precisa para seu início de jornada
+  </h2>
+  <p class="text-lg mt-4 text-slate-600">
+    Sabemos que o ínicio de carreira e de estudo não é nada fácil, por este
+    motivo criamos o <b> Voluntário Dev</b>.
+    <br /> Tudo isso em uma comunidade <b>100% gratuita</b>.
+  </p>
+</div>
+
+<div class="grid sm:grid-cols-2 md:grid-cols-3 mt-16 gap-16">
+  {
+    features.map((item) => (
+      <div class="flex gap-4 items-start">
+        <div class="mt-1 bg-black rounded-full  p-2 w-8 h-8 shrink-0">
+          <Icon class="text-white" name={item.icon} />
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg">{item.title}</h3>{" "}
+          <p class="text-slate-500 mt-2 leading-relaxed">{item.description}</p>
+        </div>
+      </div>
+    ))
+  }
+</div>
