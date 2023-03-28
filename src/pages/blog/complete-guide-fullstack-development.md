@@ -1,9 +1,9 @@
 ---
-title: "The Complete Guide to Full Stack Web Development"
+title: "O Guia Completo para Desenvolvimento Full Stack"
 excerpt: "Ornare cum cursus laoreet sagittis nunc fusce posuere per euismod dis vehicula a, semper fames lacus maecenas dictumst pulvinar neque enim non potenti. Torquent hac sociosqu eleifend potenti."
 publishDate: "2022-11-08T11:39:36.050Z"
 image: "https://source.unsplash.com/eYpcLDXHVb0"
-category: "Tutorials"
+category: "Tutoriais"
 author: "Janette Lynch"
 layout: "@layouts/BlogLayout.astro"
 tags: [webdev, tailwindcss, frontend]

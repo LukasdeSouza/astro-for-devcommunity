@@ -1,9 +1,9 @@
 ---
-title: " Introduction to the Essential Data Structures & Algorithms"
+title: "Introdução ao Essencial em Estrutura de Dados e Algoritmos"
 excerpt: "Ornare cum cursus laoreet sagittis nunc fusce posuere per euismod dis vehicula a, semper fames lacus maecenas dictumst pulvinar neque enim non potenti. Torquent hac sociosqu eleifend potenti."
 publishDate: "2022-11-09T16:39:36.050Z"
 image: "https://source.unsplash.com/R5A_YlcSJwA"
-category: "Courses"
+category: "Cursos"
 author: "Marcell Ziemann"
 layout: "@layouts/BlogLayout.astro"
 tags: [webdev, tailwindcss, frontend]

@@ -1,9 +1,9 @@
 ---
-title: "How to become a Frontend Master"
+title: "Como me tornar um Mestre do Frontend"
 excerpt: "Ornare cum cursus laoreet sagittis nunc fusce posuere per euismod dis vehicula a, semper fames lacus maecenas dictumst pulvinar neque enim non potenti. Torquent hac sociosqu eleifend potenti."
 publishDate: "2022-11-07T15:39:36.050Z"
 image: "https://source.unsplash.com/Iqi0Rm6gBkQ"
-category: "Tutorials"
+category: "Tutoriais"
 author: "Connor Lopez"
 layout: "@layouts/BlogLayout.astro"
 tags: [astro, tailwindcss, frontend]
